@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color:blue;
+  
+}
+.wrapper form {
+    width: 50%;
+    margin: auto;
+}
+.wrapper form img, .wrapper form    {
+    margin: auto;
+    display: block;
+}
+
+.imgavt{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    transition: 100%;
+    top: -30px;
+padding: 20px 0;
+position: absolute;
+margin-left: 300px;
+}
+#name {
+    width: 560px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    margin-top: 90px;  
+}
+
+label{
+    margin-left: 30px;
+   
+}
+.user{
+    margin-top: 200px;
+}
+#password{
+    margin-left: 30px;
+    width: 560px;
+    height: 30px;
+}
+.nutgui{
+    width: 530px;
+    margin: 20px 30px;
+    height: 10px;
+    color :#fff;
+    background-color: rgb(36, 187, 36);
+    text-align: center;
+    padding: 20px 20px;
+}
+.bam{
+    display: flex;
+}
+.nameinput{
+    display: flex;
+}
+.nutgui a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.nutgui:hover{
+background-color: rgba(36, 187, 36,0.7 );
+}
